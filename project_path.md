@@ -28,8 +28,12 @@
 > <!--- THis empty line is necessary for correct format -->
 > - **NGINX vs. Apache**
 >   - The Ultimate Web Server Showdown in 2024 [![alt text][1]](https://www.cloudways.com/blog/nginx-vs-apache/)
->   - This website describes in detail the difference between these program
+>   - This website describes in detail the difference between these programs
 <!--- THis empty line is necessary for correct format -->
+
+## Connect to the Raspberry Pi via the Vs-Code extensions Remote - SSH
+
+- Tutorial Link [![alt text][1]](https://carleton.ca/scs/2024/vscode-remote-access-and-code-editing/)
 
 <!-- Link sign - Don't Found a better way :-( - You know a better method? - Please send me a email -->
 [1]: ./img/link_symbol.svg
