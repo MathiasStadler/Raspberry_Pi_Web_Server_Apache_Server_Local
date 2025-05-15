@@ -31,9 +31,38 @@
 >   - This website describes in detail the difference between these programs
 <!--- THis empty line is necessary for correct format -->
 
-## Connect to the Raspberry Pi via the Vs-Code extensions Remote - SSH
+## Connect to the Raspberry Pi via the VS-Code Extensions **Remote - SSH**
 
 - Tutorial Link [![alt text][1]](https://carleton.ca/scs/2024/vscode-remote-access-and-code-editing/)
+
+>[!Tip]
+>How to install Visual Studio Code extensions from command line [![alt text][1]](https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line)
+><!-- -->
+>List already installed extensions
+> <!-- -->
+> ```bash
+> code --list-extensions
+>```
+><!-- -->>
+>Install extension
+><!-- -->
+>```bash
+> code --install-extension ms-vscode-remote.remote-ssh
+>```
+><!-- -->
+>Remove extension
+><!-- -->
+>```bash
+> code --uninstall-extension ms-vscode-remote.remote-ssh
+>```
+><!-- -->
+>Check via command line it the extension installed
+><!-- -->
+>```bash
+> # code --list-extensions | grep <extension name>
+> code --list-extensions | grep ms-vscode-remote.remote-ssh
+> echo $? # return value should be zero
+>```
 
 <!-- Link sign - Don't Found a better way :-( - You know a better method? - Please send me a email -->
 [1]: ./img/link_symbol.svg
