@@ -1,7 +1,8 @@
 # The goal of this repo is to install and use the Apache Web Server  [![alt text][1]](https://www.apache.org/) on a Raspberry Pi to use it at home
 
-- in its current stable version
-- connected via ssh for remote used
+- [The goal of this repo is to install and use the Apache Web Server   on a Raspberry Pi to use it at home](#the-goal-of-this-repo-is-to-install-and-use-the-apache-web-server---on-a-raspberry-pi-to-use-it-at-home)
+  - [Connect to the Raspberry Pi via the VS-Code Extensions **Remote - SSH**](#connect-to-the-raspberry-pi-via-the-vs-code-extensions-remote---ssh)
+  - [miscellaneous - off topic](#miscellaneous---off-topic)
 
 > [!TIP]
 ><!--- THis empty line is necessary for correct format -->
@@ -38,15 +39,23 @@
 - Follow this Tutorial [![alt text][1]](https://carleton.ca/scs/2024/vscode-remote-access-and-code-editing/)
 
 >[!Tip]
->How to install Visual Studio Code extensions from the command line. We using the ssh-remote extension as an example [![alt text][1]](https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line)
+>How to install VSCode extensions from the command line. We using the ssh-remote extension as an example [![alt text][1]](https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line)
 ><!-- -->
->List already installed extensions
+>- List already installed extensions
 > <!-- -->
 > ```bash
 > code --list-extensions
 >```
 ><!-- -->
->Install extension
+>- Find the name of extension ```<extension_name>``` [![alt text][1]](https://code.visualstudio.com/docs/getstarted/extensions)
+>   - One path among many
+> <!-- -->  
+>1. Open the Extensions view by selecting the Extensions icon in the Activity Bar, or use the Ctrl+Shift+X keyboard shortcut
+>2. Click the extension in the main window
+>3. Click on the extension's name (first row). A new browser window should open.
+>4. In this window you will see the name of the extension
+><!-- -->
+>- Install extension
 ><!-- -->
 >```bash
 >#code --install-extension <extension_name>
@@ -54,7 +63,7 @@
 >echo $? #return value should be zero
 >```
 ><!-- -->
->Remove extension
+>- Remove extension
 ><!-- -->
 >```bash
 >#code --uninstall-extension <extension_name>
@@ -69,6 +78,10 @@
 >code --list-extensions | grep ms-vscode-remote.remote-ssh
 >echo $? #return value should be zero
 >```
+
+## miscellaneous - off topic
+
+- Capitalization and lowercase in English - Groß- und Kleinschreibung im Englischen [![alt text][1]](https://de.pons.com/p/wissensecke/grammatik-to-go/gross-kleinschreibung-englisch)
 
 <!-- Link sign - Don't Found a better way :-( - You know a better method? - Please send me a email -->
 [1]: ./img/link_symbol.svg
