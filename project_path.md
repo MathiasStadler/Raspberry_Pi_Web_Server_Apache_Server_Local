@@ -1,4 +1,4 @@
-# The goal of this repo is to install and use the Apache Web Server  [![alt text][1]](https://www.apache.org/) on Raspberry Pi to use it at home
+# The goal of this repo is to install and use the Apache Web Server  [![alt text][1]](https://www.apache.org/) on a Raspberry Pi to use it at home
 
 - in its current stable version
 - connected via ssh for remote used
@@ -10,13 +10,15 @@
 ><!--- THis empty line is necessary for correct format -->
 > ```markdown
 > [![alt text][1]](https://stackoverflow.com/questions/22697688/how-to-cat-eof-a-file-containing-code)
+> <!-- Picture of link symbol -->
+> [1]: ./img/link_symbol.svg
 > ```
 > <!--- THis empty line is necessary for correct format -->
 > - alternative - even clearer method
 > <!--- THis empty line is necessary for correct format -->
 > ```markdown
 > [alt text][1]][2]
-> <!-- Link Symbol -->
+> <!-- Picture of link symbol -->
 > [1]: ./img/link_symbol.svg
 > <!-- Link Address>
 > [2]: https://link_adress
@@ -26,7 +28,7 @@
 <!--- THis empty line is necessary for correct format -->
 > [!Note]
 > <!--- THis empty line is necessary for correct format -->
-> - **NGINX vs. Apache**
+> - NGINX [![alt text][1]](https://nginx.org/) vs. Apache [![alt text][1]](https://www.apache.org/)
 >   - The Ultimate Web Server Showdown in 2024 [![alt text][1]](https://www.cloudways.com/blog/nginx-vs-apache/)
 >   - This website describes in detail the difference between these programs
 <!--- THis empty line is necessary for correct format -->
@@ -36,7 +38,7 @@
 - Follow this Tutorial [![alt text][1]](https://carleton.ca/scs/2024/vscode-remote-access-and-code-editing/)
 
 >[!Tip]
->How to install Visual Studio Code extensions from the command line using the ssh-remote extension as an example [![alt text][1]](https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line)
+>How to install Visual Studio Code extensions from the command line. We using the ssh-remote extension as an example [![alt text][1]](https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line)
 ><!-- -->
 >List already installed extensions
 > <!-- -->
@@ -47,21 +49,25 @@
 >Install extension
 ><!-- -->
 >```bash
-> code --install-extension ms-vscode-remote.remote-ssh
+>#code --install-extension <extension_name>
+>code --install-extension ms-vscode-remote.remote-ssh
+>echo $? #return value should be zero
 >```
 ><!-- -->
 >Remove extension
 ><!-- -->
 >```bash
-> code --uninstall-extension ms-vscode-remote.remote-ssh
+>#code --uninstall-extension <extension_name>
+>code --uninstall-extension ms-vscode-remote.remote-ssh
+>echo $? #return value should be zero
 >```
 ><!-- -->
 >Check via command line it the extension installed
 ><!-- -->
 >```bash
-> # code --list-extensions | grep <extension name>
-> code --list-extensions | grep ms-vscode-remote.remote-ssh
-> echo $? # return value should be zero
+>#code --list-extensions | grep <extension_name>
+>code --list-extensions | grep ms-vscode-remote.remote-ssh
+>echo $? #return value should be zero
 >```
 
 <!-- Link sign - Don't Found a better way :-( - You know a better method? - Please send me a email -->
