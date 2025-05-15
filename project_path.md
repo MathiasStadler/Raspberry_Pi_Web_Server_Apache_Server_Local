@@ -1,4 +1,4 @@
-# The goal of this repo is to install and use on Raspberry Pi the web server Apache Server [![alt text][1]](https://www.apache.org/)
+# The goal of this repo is to install and use the Apache Web Server  [![alt text][1]](https://www.apache.org/) on Raspberry Pi to use it at home
 
 - in its current stable version
 - connected via ssh for remote used
@@ -33,17 +33,17 @@
 
 ## Connect to the Raspberry Pi via the VS-Code Extensions **Remote - SSH**
 
-- Tutorial Link [![alt text][1]](https://carleton.ca/scs/2024/vscode-remote-access-and-code-editing/)
+- Follow this Tutorial [![alt text][1]](https://carleton.ca/scs/2024/vscode-remote-access-and-code-editing/)
 
 >[!Tip]
->How to install Visual Studio Code extensions from command line [![alt text][1]](https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line)
+>How to install Visual Studio Code extensions from the command line using the ssh-remote extension as an example [![alt text][1]](https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line)
 ><!-- -->
 >List already installed extensions
 > <!-- -->
 > ```bash
 > code --list-extensions
 >```
-><!-- -->>
+><!-- -->
 >Install extension
 ><!-- -->
 >```bash
