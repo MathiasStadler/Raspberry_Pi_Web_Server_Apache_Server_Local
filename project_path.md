@@ -1,15 +1,26 @@
 # The goal of this repo is to install and use the Apache Web Server  [![alt text][1]](https://www.apache.org/) on a Raspberry Pi [![alt text][1]](https://www.raspberrypi.com/) at home
-
+<!-- TODO:1 -->
+<!-- important outside the TOC block -->
+<!-- markdownlint-disable MD039 -->
 - [The goal of this repo is to install and use the Apache Web Server   on a Raspberry Pi  at home](#the-goal-of-this-repo-is-to-install-and-use-the-apache-web-server---on-a-raspberry-pi--at-home)
   - [Connect to the Raspberry Pi via the VS-Code Extensions **Remote - SSH**](#connect-to-the-raspberry-pi-via-the-vs-code-extensions-remote---ssh)
   - [Show desktop from Raspberry Pi over local network - linux based client,  rdesktop and xrdp ](#show-desktop-from-raspberry-pi-over-local-network---linux-based-client--rdesktop-and-xrdp-)
   - [Show desktop from Raspberry Pi over SSH tunnel](#show-desktop-from-raspberry-pi-over-ssh-tunnel)
   - [miscellaneous - off topic](#miscellaneous---off-topic)
-
+<!--- THis empty line is necessary for correct format -->
+<!-- TODO:0 -->
+<!-- BUG THe both extension **markdownlint** and **Todo Tree** are INCOMPATIBLE as I use them->
+>[!NOTE]
+> Markdown All in One Documentation - Compatibility - Known issues [![alt text][1]](https://markdown-all-in-one.github.io/docs/guide/compatibility.html)
+<!--- THis empty line is necessary for correct format -->
+>[!NOTE]
+> GitHub repo markdownlint  [![alt text][1]](https://github.com/DavidAnson/markdownlint)
+<!--- THis empty line is necessary for correct format -->
 > [!TIP]
 > Markdown Link as Image instead of text
 ><!--- THis empty line is necessary for correct format -->
-> - Whats the recommended syntax for an image with a link? [[![alt text][1]](https://meta.stackexchange.com/questions/2133/whats-the-recommended-syntax-for-an-image-with-a-link)
+> <!-- - Whats the recommended syntax for an image with a link? [![alt text][1]](https://meta.stackexchange.com/questions/2133/whats-the-recommended-syntax-for-an-image-with-a-link) -->
+> - Whats the recommended syntax for an image with a link? [![alt text][1]]([![alt text][2]])
 ><!--- THis empty line is necessary for correct format -->
 > <!-- [![alt text][1]](https://meta.stackexchange.com/questions/2133/whats-the-recommended-syntax-for-an-image-with-a-link) -->
 > - HTML Links syntax [![alt text][1]](https://www.w3schools.com/html/html_links.asp)
@@ -110,11 +121,11 @@ rdesktop -z -P -x l -a 32 -g 1200x800 -k de 192.168.178.40
 ## miscellaneous - off topic
 
 - Capitalization and lowercase in English - Groß- und Kleinschreibung im Englischen [![alt text][1]](https://de.pons.com/p/wissensecke/grammatik-to-go/gross-kleinschreibung-englisch)
-
+<!--
 xset s off && xset -dpms && xset s noblank
 https://www.reddit.com/r/debian/comments/7ft10g/new_to_debian_all_i_want_to_do_for_now_is_disable/
 
 htop like disk usage
-
+-->
 <!-- Link sign - Don't Found a better way :-( - You know a better method? - Please send me a email -->
 [1]: ./img/link_symbol.svg

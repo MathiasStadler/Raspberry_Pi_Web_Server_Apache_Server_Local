@@ -1,14 +1,17 @@
 {
     "cSpell.words": [
         "dotenv",
+        "dpms",
         "eslintcache",
         "jscoverage",
         "jspm",
         "Kleinschreibung",
+        "noblank",
         "pids",
         "rdesktop",
         "wireshark",
         "wscript",
-        "xrdp"
+        "xrdp",
+        "xset"
     ]
 }
