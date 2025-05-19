@@ -1,6 +1,6 @@
 # The goal of this repo is to install and use the Apache Web Server  [![alt text][1]](https://www.apache.org/) on a Raspberry Pi [![alt text][1]](https://www.raspberrypi.com/) at home
 <!-- TODO:1 -->
-<!-- important outside the TOC block -->
+<!-- //IMPORTANT outside the block for TOC -->
 <!-- markdownlint-disable MD039 -->
 - [The goal of this repo is to install and use the Apache Web Server   on a Raspberry Pi  at home](#the-goal-of-this-repo-is-to-install-and-use-the-apache-web-server---on-a-raspberry-pi--at-home)
   - [Connect to the Raspberry Pi via the VS-Code Extensions **Remote - SSH**](#connect-to-the-raspberry-pi-via-the-vs-code-extensions-remote---ssh)
