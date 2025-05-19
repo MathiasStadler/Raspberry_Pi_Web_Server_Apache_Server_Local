@@ -7,9 +7,16 @@
   - [miscellaneous - off topic](#miscellaneous---off-topic)
 
 > [!TIP]
+> Markdown Link as Image instead of text
 ><!--- THis empty line is necessary for correct format -->
-> - Image as text for a markdown link [![alt text][1]](https://meta.stackexchange.com/questions/2133/whats-the-recommended-syntax-for-an-image-with-a-link)
->   - Whats the recommended syntax for an image with a link? [![alt text][1]][2]
+> - Whats the recommended syntax for an image with a link? [[![alt text][1]](https://meta.stackexchange.com/questions/2133/whats-the-recommended-syntax-for-an-image-with-a-link)
+><!--- THis empty line is necessary for correct format -->
+> <!-- [![alt text][1]](https://meta.stackexchange.com/questions/2133/whats-the-recommended-syntax-for-an-image-with-a-link) -->
+> - HTML Links syntax [![alt text][1]](https://www.w3schools.com/html/html_links.asp)
+><!--- THis empty line is necessary for correct format -->
+>```html
+> [![alt text][1]](URL)
+>```
 ><!--- THis empty line is necessary for correct format -->
 > ```markdown
 > [![alt text][1]](https://stackoverflow.com/questions/22697688/how-to-cat-eof-a-file-containing-code)
@@ -103,6 +110,11 @@ rdesktop -z -P -x l -a 32 -g 1200x800 -k de 192.168.178.40
 ## miscellaneous - off topic
 
 - Capitalization and lowercase in English - Groß- und Kleinschreibung im Englischen [![alt text][1]](https://de.pons.com/p/wissensecke/grammatik-to-go/gross-kleinschreibung-englisch)
+
+xset s off && xset -dpms && xset s noblank
+https://www.reddit.com/r/debian/comments/7ft10g/new_to_debian_all_i_want_to_do_for_now_is_disable/
+
+htop like disk usage
 
 <!-- Link sign - Don't Found a better way :-( - You know a better method? - Please send me a email -->
 [1]: ./img/link_symbol.svg
