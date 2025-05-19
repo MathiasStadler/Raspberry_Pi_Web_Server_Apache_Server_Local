@@ -1,7 +1,9 @@
-# The goal of this repo is to install and use the Apache Web Server  [![alt text][1]](https://www.apache.org/) on a Raspberry Pi to use it at home
+# The goal of this repo is to install and use the Apache Web Server  [![alt text][1]](https://www.apache.org/) on a Raspberry Pi [![alt text][1]](https://www.raspberrypi.com/) at home
 
-- [The goal of this repo is to install and use the Apache Web Server   on a Raspberry Pi to use it at home](#the-goal-of-this-repo-is-to-install-and-use-the-apache-web-server---on-a-raspberry-pi-to-use-it-at-home)
+- [The goal of this repo is to install and use the Apache Web Server   on a Raspberry Pi  at home](#the-goal-of-this-repo-is-to-install-and-use-the-apache-web-server---on-a-raspberry-pi--at-home)
   - [Connect to the Raspberry Pi via the VS-Code Extensions **Remote - SSH**](#connect-to-the-raspberry-pi-via-the-vs-code-extensions-remote---ssh)
+  - [Show desktop from Raspberry Pi over local network - linux based client,  rdesktop and xrdp ](#show-desktop-from-raspberry-pi-over-local-network---linux-based-client--rdesktop-and-xrdp-)
+  - [Show desktop from Raspberry Pi over SSH tunnel](#show-desktop-from-raspberry-pi-over-ssh-tunnel)
   - [miscellaneous - off topic](#miscellaneous---off-topic)
 
 > [!TIP]
@@ -78,6 +80,25 @@
 >code --list-extensions | grep ms-vscode-remote.remote-ssh
 >echo $? #return value should be zero
 >```
+<!--- THis empty line is necessary for correct format -->
+>[!TIP]
+>Disable the screen blanking [![alt text][1]](https://www.reddit.com/r/debian/comments/7ft10g/new_to_debian_all_i_want_to_do_for_now_is_disable/)
+>command
+><!--- THis empty line is necessary for correct format -->
+>```bash
+>```
+><!--- THis empty line is necessary for correct format -->
+
+## Show desktop from Raspberry Pi over local network - linux based client,  rdesktop and xrdp [![alt text][1]](https://debianforum.de/forum/viewtopic.php?t=158811#p1071435)
+<!-- https://www.google.com/search?client=firefox-b-e&channel=entpr&q=debian+rdesktop -->
+
+- command
+
+```bash
+rdesktop -z -P -x l -a 32 -g 1200x800 -k de 192.168.178.40
+```
+
+## Show desktop from Raspberry Pi over SSH tunnel
 
 ## miscellaneous - off topic
 

@@ -1,4 +1,4 @@
-# The goal of this repo is to install and use the Apache Web Server  [![alt text][1]](https://www.apache.org/) on Raspberry Pi  [![alt text][1]](https://www.raspberrypi.com/) to use it at home
+# The goal of this repo is to install and use the Apache Web Server  [![alt text][1]](https://www.apache.org/) on a Raspberry Pi  [![alt text][1]](https://www.raspberrypi.com/) at home
 
 ## The detailed project description [![alt text][1]](./project_path.md)
 <!--

@@ -6,7 +6,9 @@
         "jspm",
         "Kleinschreibung",
         "pids",
+        "rdesktop",
         "wireshark",
-        "wscript"
+        "wscript",
+        "xrdp"
     ]
 }
